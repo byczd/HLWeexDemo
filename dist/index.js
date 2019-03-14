@@ -85,7 +85,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/chenzhidong/project.Lg5/weexSource/awesome-app/src/components/HelloWorld.vue"
+__vue_options__.__file = "/Users/chenzhidong/project.Lg5/weexSource/HLWeexDemo/src/components/HelloWorld.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__.style = __vue_options__.style || {}
@@ -115,19 +115,15 @@ module.exports.render._withStripped = true
 /***/ }),
 /* 2 */,
 /* 3 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_index_vue__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__src_index_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__src_index_vue__);
 
-
-var _index = __webpack_require__(4);
-
-var _index2 = _interopRequireDefault(_index);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-_index2.default.el = '#root';
-new Vue(_index2.default);
+__WEBPACK_IMPORTED_MODULE_0__src_index_vue___default.a.el = '#root';
+new Vue(__WEBPACK_IMPORTED_MODULE_0__src_index_vue___default.a);
 
 /***/ }),
 /* 4 */
@@ -156,7 +152,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/chenzhidong/project.Lg5/weexSource/awesome-app/src/index.vue"
+__vue_options__.__file = "/Users/chenzhidong/project.Lg5/weexSource/HLWeexDemo/src/index.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__._scopeId = "data-v-2964abc9"
@@ -204,39 +200,33 @@ module.exports = {
 
 /***/ }),
 /* 6 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_HelloWorld__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_HelloWorld___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_HelloWorld__);
+//
+//
+//
+//
+//
+//
+//
+//
 
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _HelloWorld = __webpack_require__(0);
-
-var _HelloWorld2 = _interopRequireDefault(_HelloWorld);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = {
+/* harmony default export */ __webpack_exports__["default"] = ({
   name: 'App',
   components: {
-    HelloWorld: _HelloWorld2.default
+    HelloWorld: __WEBPACK_IMPORTED_MODULE_0__components_HelloWorld___default.a
   },
-  data: function data() {
+  data() {
     return {
       logo: 'https://tva3.sinaimg.cn/crop.0.0.180.180.180/894d45e2jw1e8qgp5bmzyj2050050aa8.jpg'
     };
   }
-}; //
-//
-//
-//
-//
-//
-//
-//
+});
 
 /***/ }),
 /* 7 */
